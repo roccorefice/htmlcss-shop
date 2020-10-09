@@ -11,20 +11,7 @@
   margin-top: 50px;
 }
 
-.item{
-  display: inline-block;
-  position: relative;
-  width: 300px;
-  height: 372px;
-  cursor: pointer;
-}
-
-.discount{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
+/* Utility Class */
 .meno-trenta{
   background: green;
 }
@@ -40,6 +27,22 @@
   color: red;
   display: none;
   font-size: 25px;
+}
+/* Utility Class */
+
+.item{
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 372px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .item:hover .favorite{
